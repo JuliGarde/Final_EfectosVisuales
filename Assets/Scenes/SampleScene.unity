@@ -8118,6 +8118,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 210f9186a3b28e64998d1a4f5625c06c, type: 3}
+--- !u!1 &449974502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 449974503}
+  - component: {fileID: 449974504}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &449974503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449974502}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 33.41026, y: 3.4573648, z: 1.1461533}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &449974504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449974502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d548eaba4387ecc409d0f5f1f8f66d17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &450899113
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12983,8 +13027,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.3137255, g: 0.37254903, b: 0.6313726, a: 1}
-  m_Intensity: 101.54
-  m_Range: 10
+  m_Intensity: 150
+  m_Range: 20
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -25935,7 +25979,8 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4817925593951151571, guid: c63ae864122efd147bf9fe1c0124deec, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c63ae864122efd147bf9fe1c0124deec, type: 3}
 --- !u!1001 &1267183373
 PrefabInstance:
@@ -38943,8 +38988,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.3137255, g: 0.37254903, b: 0.6313726, a: 1}
-  m_Intensity: 101.54
-  m_Range: 10
+  m_Intensity: 150
+  m_Range: 20
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -40767,8 +40812,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.3137255, g: 0.37254903, b: 0.6313726, a: 1}
-  m_Intensity: 101.54
-  m_Range: 10
+  m_Intensity: 150
+  m_Range: 20
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10

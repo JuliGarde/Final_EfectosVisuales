@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5942730945278293229
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 5
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -20,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Dissolve2
-  m_Shader: {fileID: -6465566751694194690, guid: 6c98543e47b758741bb47c766da0cf36,
+  m_Name: M_PP2
+  m_Shader: {fileID: -6465566751694194690, guid: 7e8606b2f9e2d4840a431f2edcdfda31,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,8 +21,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BaseTexture:
-        m_Texture: {fileID: 2800000, guid: ae6029e44e195f547a9d166bcf8a6332, type: 3}
+    - _MainTex:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -52,14 +39,30 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DissolveAmount: 0.36622238
-    - _GlowIntensity: 2
-    - _GlowWidth: 0.001
-    - _NoiseIntensity: 50
-    - _NoiseStrenght: 0.2
+    - _Distortion: 1
+    - _Intensity: 0.03
+    - _Lines: 25
+    - _MaxNoise: 0.035
+    - _MinNoise: 0.01
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _SpeedLines: 0.5
+    - _SpeedTime: 0.05
     m_Colors:
-    - _Bounds: {r: -5, g: 5, b: 0, a: 0}
-    - _GlowColor: {r: 0, g: 36.235844, b: 114.0758, a: 0}
+    - _Camera_Tint: {r: 7.129739, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.043137312, g: 1, b: 0, a: 1}
+    - _Color2: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
+--- !u!114 &6554405236180284249
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5

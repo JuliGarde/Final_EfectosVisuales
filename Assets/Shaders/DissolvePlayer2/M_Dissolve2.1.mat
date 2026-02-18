@@ -52,7 +52,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DissolveAmount: 0.7653427
+    - _DissolveAmount: 0.36622238
     - _GlowIntensity: 6
     - _GlowWidth: 0.1
     - _NoiseIntensity: 20
